@@ -1,0 +1,340 @@
+@charset "ISO-8859-1";
+
+h1 {
+    font-size: 40px;   
+    text-align: center;
+    color: white;
+}
+
+table {
+	vertical-align: all;
+	text-align: center;
+	margin: 0 auto;
+}
+
+table a button {
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 25;
+	width: 250px;
+	height: 100px;
+}
+
+table {
+	background-color: white;
+}
+
+.tm {
+	background-color: transparent;
+}
+
+.block {
+	background: darkblue;
+	margin: auto;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+		
+}
+
+.boxLine {
+	display: inline-block;
+	background: white;
+	height: 70px;
+	width: 200px;
+	margin: 15px;
+}
+
+.btnUsuarios {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnUsuarios::before{
+	content: "Usuarios";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnUsuarios:hover:before{
+	top: -30px;
+}
+
+.btnUsuarios::after{
+	content: url("Imagenes/iconoUsuarios.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnUsuarios:hover:after{
+	top: 50%;
+}
+
+.btnUsuarios:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
+
+.btnClientes {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnClientes::before{
+	content: "Clientes";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnClientes:hover:before{
+	top: -30px;
+}
+
+.btnClientes::after{
+	content: url("Imagenes/iconoClientes.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnClientes:hover:after{
+	top: 50%;
+}
+
+.btnClientes:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
+
+.btnProveedores {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnProveedores::before{
+	content: "Proveedores";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnProveedores:hover:before{
+	top: -30px;
+}
+
+.btnProveedores::after{
+	content: url("Imagenes/iconoClientes.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnProveedores:hover:after{
+	top: 50%;
+}
+
+.btnProveedores:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
+
+.btnProductos {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnProductos::before{
+	content: "Productos";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnProductos:hover:before{
+	top: -30px;
+}
+
+.btnProductos::after{
+	content: url("Imagenes/iconoProductos.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnProductos:hover:after{
+	top: 50%;
+}
+
+.btnProductos:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
+
+.btnVentas {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnVentas::before{
+	content: "Ventas";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnVentas:hover:before{
+	top: -30px;
+}
+
+.btnVentas::after{
+	content: url("Imagenes/iconoVentas.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnVentas:hover:after{
+	top: 50%;
+}
+
+.btnVentas:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
+
+.btnReportes {
+	width: 100%;
+	height: 100%;
+	background: orange;
+	position: relative;
+	border: 3px solid indianred;
+	box-shadow: 0px 5px 0px black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btnReportes::before{
+	content: "Reportes";
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease-in-out;
+}
+
+.btnReportes:hover:before{
+	top: -30px;
+}
+
+.btnReportes::after{
+	content: url("Imagenes/iconoReportes.png");
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	transition: all .5s ease-in-out;
+}
+
+.btnReportes:hover:after{
+	top: 50%;
+}
+
+.btnReportes:active {
+	margin: 5px 0px -5px 0px;
+	box-shadow: 0px 0px 0px black;
+}
